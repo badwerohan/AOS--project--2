@@ -14,19 +14,19 @@
 
 #### Job can consist of Instruction
 
-GD-Get Data
-PD-Print Data
-LR-Load Register From Memory
-SR-Store Register From Memory
-CR-Compare Register And Memory
-BT-Branch Toggle(Checks Toggle Variable)
-H- Denotes end of job.
-Job should start with $AMJ
-There is $DTA after declaration of program cards and before data cards
-Job should end with $END
+* GD-Get Data
+* PD-Print Data
+* LR-Load Register From Memory
+* SR-Store Register From Memory
+* CR-Compare Register And Memory
+* BT-Branch Toggle(Checks Toggle Variable)
+* H- Denotes end of job.
+* Job should start with $AMJ
+* There is $DTA after declaration of program cards and before data cards
+* Job should end with $END
 
 #### Tools used
-Gcc compiler
-Emacs
-Gdb
+* Gcc compiler
+* Emacs
+* Gdb
 
